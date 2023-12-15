@@ -70,5 +70,7 @@ html, body{
 @media only screen and (max-width: 450px) {
     .home-container{
         background-image: url('/img/mobile.jpg');
+        background-position: top;
+        background-size: contain;
     }
 }
