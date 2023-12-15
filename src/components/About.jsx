@@ -94,7 +94,7 @@ export const About = () => {
                 <h2>Proyectos</h2>
                 <a href='https://ispc-datos-academicos.web.app/login' target='_blank' className='experience-box'>
                     <div className='img-box'>
-                        <img src='./public/img/ispc-home.jpg' alt='ispc' className='img-box'/>
+                        <img src='./img/ispc-home.jpg' alt='ispc' className='img-box'/>
                     </div>
                     <div className='experience-data proyect-desc'>
                         <h3 className='exp-h3'>Sistema de gestion de Universidad</h3>
