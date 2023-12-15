@@ -69,6 +69,7 @@ html, body{
 
 @media only screen and (max-width: 450px) {
     .home-container{
-        background-image: url('/img/desktop-mobile.jpg');
+        background-image: url(/img/desktop-mobile.jpg);
+        background-size: 1000px;
     }
 }
