@@ -69,6 +69,7 @@ html, body{
 
 @media only screen and (max-width: 450px) {
     .home-container{
+        height: 50vh;
         background-image: url('/img/mobile2.jpg');
         background-position: top;
         background-size: contain;
