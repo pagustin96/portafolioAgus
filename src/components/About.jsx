@@ -157,9 +157,10 @@ export const About = () => {
             <footer className='footer-container'>
                 <p className='from'>from</p> 
                 <h3 className='pais'>Argentina</h3>
-                <p className='footer-p'>Loosely designed in Invision Studio and coded in Visual Studio Code by yours truly. 
-                    Built with Next.js and Tailwind CSS , deployed with Vercel . 
-                    All text is set in the Inter typeface.</p>
+                <p className='footer-p'>Loosely designed in Invision Studio and coded in Visual Studio Code by yours 
+                truly. 
+                Built with Next.js and Tailwind CSS , deployed with Vercel . 
+                All text is set in the Inter typeface.</p>
             </footer>
         </div>
     </div>
