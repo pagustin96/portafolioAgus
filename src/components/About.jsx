@@ -36,7 +36,7 @@ export const About = () => {
     <div className='about-container'>
         <header className='header-container'>
             <div className='header-wrapper'>
-                <img src='/img/perfil_bg.png' alt='perfil' className='perfil-img'/>
+                <img src='./img/perfil_bg.png' alt='perfil' className='perfil-img'/>
                 <h2 className='header-h2'>Agustin</h2>
                 <h3 className='header-h3'>Programador Full Stack</h3>
                 <p className='header-p'>
@@ -94,7 +94,7 @@ export const About = () => {
                 <h2>Proyectos</h2>
                 <a href='https://ispc-datos-academicos.web.app/login' target='_blank' className='experience-box'>
                     <div className='img-box'>
-                        <img src='/public/img/ispc-home.jpg' alt='ispc' className='img-box'/>
+                        <img src='./public/img/ispc-home.jpg' alt='ispc' className='img-box'/>
                     </div>
                     <div className='experience-data proyect-desc'>
                         <h3 className='exp-h3'>Sistema de gestion de Universidad</h3>
