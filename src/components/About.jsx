@@ -107,9 +107,25 @@ export const About = () => {
                         <h3 className='exp-h3'>Sistema de gestion de Universidad</h3>
                         <p className='exp-description'>Sistema desarrollado para el Instituto Superior Politecnico 
                         de Cordoba como trabajo final para la certificacion de Desarrollador Web Full Stack Python.<br/>
-                        Integre un equipo de 7 personas donde mi rol fue liderar el equipo de backend.</p>
+                        Integre un equipo de 7 personas donde mi rol fue liderar el equipo de backend.<br />
+                        <strong>Tecnologias utilizadas: Angular, TypeScript, Django, Python.</strong></p>
                     </div>
                 </a>
+                <div className='experience-box'>
+                    <div className='img-box'>
+                        <img src='./img/ar-cons.jpg' alt="arcons" className='img-box' />
+                    </div>
+                    <div className='experience-data proyect-desc'>
+                        <h3 className='exp-h3'>Sistema de Recursos Humanos</h3>
+                        <p className='exp-description'>Software desarrollado para la empresa AR Consultores, 
+                        Su principal funcion es gestionar de manera eficiente el area de reclutamiento IT, facilitando
+                        el acceso a la informacion de los candidatos y las vacantes.<br />
+                        Integre un equipo de 9 personas donde me desempeñe como lider del area front end. <br />
+                        Actualmente me encuentro a cargo del proyecto.<br />
+                        <strong>Tecnologias utilizadas: React, JavaScript, Java, Spring Boot, Pl Sql, Linear.</strong>
+                        </p>
+                    </div>
+                </div>
             </section>
             <section id='skills' className='section-container'>
                 <h2>Skills</h2>
@@ -165,7 +181,8 @@ export const About = () => {
                 <p className='from'>from</p> 
                 <h3 className='pais'>Argentina</h3>
                 <p className='footer-p'>
-                Hecho por Pedro Agustin Sanchez con <strong>React</strong>, Vite, Javascript, HTML, Css y mucho <strong>{"<3"}</strong>, desplegado en 
+                Hecho por Pedro Agustin Sanchez con <strong>React</strong>, Vite, Javascript, HTML, Css y mucho <div className='love'><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke="#e2dfdf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>.
+                 Desplegado en 
                 GitHub Pages. <br/>
                 {`"`}Si se puede <strong>imaginar</strong> se puede <strong>programar</strong>{`"`}.
                 </p>
