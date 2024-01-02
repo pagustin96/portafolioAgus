@@ -53,6 +53,9 @@ export const About = () => {
                 <a href='https://www.linkedin.com/in/pasanchezdev/' target='_blank' rel="noreferrer" >
                     <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#currentColor"></path> <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#currentColor"></path> <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#currentColor"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#currentColor"></path> </g></svg>
                 </a>
+                <a href="https://github.com/pagustin96" target='_blank' rel="noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M13.4142 3.82843C12.6332 3.04738 11.3668 3.04738 10.5858 3.82843L9.91421 4.5L11.482 6.06774C11.6472 6.02356 11.8208 6 12 6C13.1046 6 14 6.89543 14 8C14 8.17916 13.9764 8.35282 13.9323 8.51804L15.982 10.5677C16.1472 10.5236 16.3208 10.5 16.5 10.5C17.6046 10.5 18.5 11.3954 18.5 12.5C18.5 13.6046 17.6046 14.5 16.5 14.5C15.3954 14.5 14.5 13.6046 14.5 12.5C14.5 12.3208 14.5236 12.1472 14.5677 11.982L13 10.4142V15.2676C13.5978 15.6134 14 16.2597 14 17C14 18.1046 13.1046 19 12 19C10.8954 19 10 18.1046 10 17C10 16.2597 10.4022 15.6134 11 15.2676V9.73244C10.4022 9.38663 10 8.74028 10 8C10 7.82084 10.0236 7.64718 10.0677 7.48196L8.5 5.91421L3.82843 10.5858C3.04738 11.3668 3.04738 12.6332 3.82843 13.4142L10.5858 20.1716C11.3668 20.9526 12.6332 20.9526 13.4142 20.1716L20.1716 13.4142C20.9526 12.6332 20.9526 11.3668 20.1716 10.5858L13.4142 3.82843ZM9.17157 2.41421C10.7337 0.852115 13.2663 0.852119 14.8284 2.41422L21.5858 9.17157C23.1479 10.7337 23.1479 13.2663 21.5858 14.8284L14.8284 21.5858C13.2663 23.1479 10.7337 23.1479 9.17157 21.5858L2.41421 14.8284C0.852115 13.2663 0.852119 10.7337 2.41422 9.17157L9.17157 2.41421Z" fill="#cdbead"></path> </g></svg>
+                </a>
                 </div>
                 
             </div>
@@ -99,7 +102,7 @@ export const About = () => {
             </section>
             <section id='projects' className='section-container'>
                 <h2>Proyectos</h2>
-                <a href='https://ispc-datos-academicos.web.app/login' rel='noreferrer' target='_blank' className='experience-box'>
+                <div href='https://ispc-datos-academicos.web.app/login' rel='noreferrer' target='_blank' className='experience-box'>
                     <div className='img-box'>
                         <img src='./img/ispc-home.jpg' alt='ispc' className='img-box'/>
                     </div>
@@ -108,22 +111,37 @@ export const About = () => {
                         <p className='exp-description'>Sistema desarrollado para el Instituto Superior Politecnico 
                         de Cordoba como trabajo final para la certificacion de Desarrollador Web Full Stack Python.<br/>
                         Integre un equipo de 7 personas donde mi rol fue liderar el equipo de backend.<br />
-                        <strong>Tecnologias utilizadas: Angular, TypeScript, Django, Python.</strong></p>
+                        <strong>Tecnologias: Angular, TypeScript, Django, Python.</strong></p>
+                        <div className='visit-proyects'>
+                            <a href="https://github.com/pagustin96/ISPC-Django-Proyect" target='_blank' rel="noreferrer" className='proyect'>
+                                Ver repositorio
+                            </a>
+                            <a href="https://ispc-datos-academicos.web.app/login" target='_blank' rel="noreferrer" className='proyect'>
+                                Ver Proyecto
+                            </a>
+                        </div>
+                        
                     </div>
-                </a>
+                </div>
                 <div className='experience-box'>
                     <div className='img-box'>
                         <img src='./img/ar-cons.jpg' alt="arcons" className='img-box' />
+                        
                     </div>
                     <div className='experience-data proyect-desc'>
                         <h3 className='exp-h3'>Sistema de Recursos Humanos</h3>
-                        <p className='exp-description'>Software desarrollado para la empresa AR Consultores, 
+                        <p className='exp-description'>Software interno  desarrollado para la empresa AR Consultores, 
                         Su principal funcion es gestionar de manera eficiente el area de reclutamiento IT, facilitando
                         el acceso a la informacion de los candidatos y las vacantes.<br />
                         Integre un equipo de 9 personas donde me desempeñe como lider del area front end. <br />
                         Actualmente me encuentro a cargo del proyecto.<br />
-                        <strong>Tecnologias utilizadas: React, JavaScript, Java, Spring Boot, Pl Sql, Linear.</strong>
+                        <strong>Tecnologias: React, JavaScript, Java, Spring Boot, Pl/SQL, Linear.</strong>
                         </p>
+                        <div className='visit-proyects'>
+                            <a href="https://github.com/pagustin96/Impacto-Global/tree/main" target='_blank' rel="noreferrer" className='proyect'>
+                                Ver repositorio
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>

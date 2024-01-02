@@ -311,16 +311,37 @@ a{
 
   .linkedin{
     margin-top: 5%;
-    width: 25px;
-    height: 25px;
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
   }
 
 .linkedin a{
     color: #cdbead;
+    width: 30px;
+    height: 30px; 
 }
 
 .love{
     display: inline-block;
     width: 15px;
     height: 15px;
+}
+
+.proyect{
+    display: inline-block;
+    color: #7A7267;
+    width: auto;
+    height: 30px; 
+}
+
+.proyect:hover {
+    font-weight: 900;
+    color: #cdbead;
+}
+
+.visit-proyects{
+    width: calc(100% - 27px);
+    display: flex;
+    justify-content: space-between;
 }
